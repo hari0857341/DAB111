@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Upi Payment Transactions Data</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        p, ul {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            max-width: 800px;
+            text-align: left;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        li strong {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Upi Payment Transactions Data</h1>
+        <p>The data is sourced from <a href="https://www.kaggle.com/datasets/devildyno/upi-payment-transactions-dataset/data">this Kaggle dataset</a>.</p>
+        <p>Definitions of each variable:</p>
+        <ul>
+            <li><strong>Transaction_ID:</strong> Unique identifier for each Transaction</li>
+            <li><strong>Timestamp:</strong> Timestamp of the Transaction</li>
+            <li><strong>Sender_Name:</strong> Sender Name of the Transaction</li>
+            <li><strong>Sender_UPI_ID:</strong> Sender UPI ID of the Transaction</li>
+            <li><strong>Receiver_Name:</strong> Receiver Name of the Transaction</li>
+            <li><strong>Receiver_UPI_ID:</strong> Receiver UPI ID of the Transaction</li>
+            <li><strong>Amount_INR:</strong> Amount in INR</li>
+            <li><strong>Status:</strong> Transaction Status</li>
+        </ul>
+    </div>
+</body>
+</html>
