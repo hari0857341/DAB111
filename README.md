@@ -4,7 +4,6 @@
 |---------------------------------|----------------|------------|
 | Hari Prasad Bavireddy           | 0857341        | 2024-07-21 |
 | Venkata Dhanayya Maddala        | 0866736        | 2024-07-21 |
-|---------------------------------------------------------------|
 
 # Notice
 The code of this data is available, and a link to the csv file is given. Here is a link to the data site  : 
